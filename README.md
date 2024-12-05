@@ -1,12 +1,10 @@
-# Customer-Lifetime-Value
+# Online Retail Data Analysis and Customer Segmentation
 
-### Summary and Recommendations
+### Overview
 
-#### 1. Overview
+This project analyzes an online retail dataset to uncover customer behaviors, purchasing patterns, and revenue contributions. It employs data cleaning, exploratory data analysis (EDA), and advanced clustering techniques to segment customers based on their Recency, Frequency, and Monetary (RFM) values. The insights from this analysis provide actionable recommendations for improving customer retention, increasing revenue, and enhancing marketing strategies.
 
-The project involves using historical sales data to predict future customer value. By calculating RFM (Recency, Frequency, Monetary) metrics, the code builds models to predict CLV and then segments customers based on their predicted value into **Low**, **Medium**, and **High CLV** groups. 
-
-#### 2. Data
+### Data
 
 The project utilizes an Excel dataset containing transactional information about customers. Key features in the dataset include:
 
@@ -18,18 +16,14 @@ The project utilizes an Excel dataset containing transactional information about
 
 The dataset is derived from an online retail store, containing over 390,000 rows of transaction data. Each transaction represents a purchase made by a customer on a particular date.
 
-#### 3. Method
+### Visualizations
 
-1. Data Cleaning
-2. Feature Engineering
-3. Exploratory Data Analysis (EDA)
-4. Customer Segmentation:
-- Utilize K-Means and Hierarchical Clustering to segment customers based on RFM metrics.
-- Calculate the Silhouette Score to evaluate the quality of clustering.
-7. Modeling
-8. Customer Segmentation Based on Predicted CLV
+- Distribution of Total Revenue: A histogram showing the distribution of revenue per transaction.
+- Customer Segmentation by Spending: Bar chart categorizing customers into Low, Medium, High, and Very High spending groups.
+- Seasonal Purchase Trends: Line chart displaying monthly revenue trends for high-value customers.
+- Top Products for High-Value Customers: Bar chart showing the top 10 products purchased by high-value customers.
   
-#### 4. Key Findings
+### Key Findings
 
 - Total Revenue: 8,887,208.89
 - Average Revenue per Transaction: 22.63Average Order Value (AOV): 479.56
@@ -38,7 +32,7 @@ The dataset is derived from an online retail store, containing over 390,000 rows
 - The clustering analysis helps to identify high-value customers and tailor marketing strategies accordingly.
 - The regression models provide valuable predictions of CLV, aiding in better customer relationship management.
 
-#### 5. Future Work
+### Future Work
 
 Further exploration could involve:
 
@@ -46,6 +40,6 @@ Further exploration could involve:
 - Incorporating additional customer features (e.g., demographic data).
 - Conducting a deeper analysis of customer segments to improve targeting strategies.
 
-#### 6. Source
+### Source
 
 https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data
